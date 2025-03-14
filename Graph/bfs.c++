@@ -54,6 +54,8 @@ int main(){
         return 0;
 
 }
+// space complexity: O(V) + O(V) = O(V) // for visited array and queue
+// time complexity: O(V+E) // for traversing all the vertices and edges
 
 
 
