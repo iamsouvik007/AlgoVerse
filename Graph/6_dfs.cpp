@@ -1,4 +1,4 @@
-// Graph traversal using DFS
+// *Graph traversal using DFS*
 // DFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph
 // as far as possible in a given direction before backtracking. It is a recursive algorithm that uses the idea of backtracking.
 

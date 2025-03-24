@@ -1,4 +1,4 @@
-// Detect cycle in a graph using DFS
+// *Detect cycle in a graph using DFS*
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -22,8 +22,8 @@ bool isCycle(int V, vector<int> adj[]) {
     vector<bool> visited(V, false);
 
     for (int i = 0; i < V; i++) {
-        if (!visited[i]) {
-            if (isCycleDFS(i, adj, visited, -1)) return true;
+        if (!visited[i]) {   // If the node is not visited yet then call the DFS function
+            if (isCycleDFS(i, adj, visited, -1)) return true; 
         }
     }
     return false;
